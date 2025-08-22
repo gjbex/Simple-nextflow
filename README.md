@@ -31,6 +31,9 @@ used in the ["Workflows for HPC training]
 1. `conda_init.sh`: Bash script to initialize the shell for conda use.
    **Note:** this script is only sourced when running the workflow with the
    `slurm` executor, i.e., with the `cluster` profile.
+1. `CODE_OF_CONDUCT.md`: code of conduct for the training.
+1. `LICENSE`: license information for the training material.
+1. `CONTRIBUTING.md`: guidelines for contributing to the training material.
 
 
 ## How to use it?
