@@ -11,7 +11,7 @@ params.nr_bins = 20
 params.distribution_file = 'distribution.txt'
 
 process CreatePoints {
-    publishDir "${projectDir}/results", mode: 'copy'
+    publishDir "${launchDir}/results", mode: 'copy'
 
     input:
     val nr_points
@@ -28,7 +28,7 @@ process CreatePoints {
 }
 
 process ComputeDistances {
-    publishDir "${projectDir}/results", mode: 'copy'
+    publishDir "${launchDir}/results", mode: 'copy'
 
     // script requires conda envirnment
     conda "${projectDir}/conda_environment.yml"
@@ -50,7 +50,7 @@ process ComputeDistances {
 }
 
 process ComputeDistribution {
-    publishDir "${projectDir}/results", mode: 'copy'
+    publishDir "${launchDir}/results", mode: 'copy'
 
     input:
     path distances_file
