@@ -9,7 +9,7 @@ Example of a simple workflow that consists of a
 
 It is only intended to be used in a demo to illustrate how to execute a
 nextflow workflow directly from a GitHub repository.  It is intended to be
-used in the ["Workflows for HPC training]
+used in the ["Workflows for HPC training](https://gjbex.github.io/Workflows-for-HPC/).
 
 
 ## What is it?
